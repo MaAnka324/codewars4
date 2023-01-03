@@ -21,9 +21,7 @@ function countSheeps(arrayOfSheep) {
 
 
 
-
- 
-
+//////////////////////////////////
 var summation = function (num) {
   // Code here
     let sum = 0;
@@ -33,7 +31,14 @@ var summation = function (num) {
   return sum;
 }
 
+//////////////////////////////
+function move (position, roll) {
+  // return the new position
+  return position+(roll*2)
+}
 
+
+///////////////////////////////////
 function lovefunc(flower1, flower2){
   // moment of truth
   if(flower1 % 2 === 0 && flower2 % 2 !== 0 ){
@@ -47,7 +52,7 @@ function lovefunc(flower1, flower2){
   }
 }
 
-
+/////////////////////////////
 function grow(x){
   let sum = 1;
   for(let i = 0; i < x.length; i++){
@@ -57,8 +62,7 @@ function grow(x){
 }
 
 
-
-
+/////////////////////////////
 function makeNegative(num) {
   if ( num > 0 ) {
         return -num;
@@ -69,7 +73,7 @@ function makeNegative(num) {
 }
 
 
-
+//////////////////////////////////////
 function simpleMultiplication(number){
     
   if(number % 2 == 0 ){
@@ -80,7 +84,7 @@ function simpleMultiplication(number){
   }    
 }
 
-
+//////////////////////////////////
 const n = [1, 5, 7, 4, 8];
 function descendingOrder(n){
   //...
@@ -97,7 +101,7 @@ console.log(n);
 }
 
 
-
+//////////////////////////
 function getSum( a,b )
 {
    //Good luck!
