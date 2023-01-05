@@ -164,3 +164,14 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   if(distanceToPump/ mpg <= fuelLeft)return true
   else return false
 };
+
+
+
+
+////////////////////////////////
+function randomWholeNum() {
+
+  // Only change code below this line
+
+  return Math.floor(Math.random() * 10);;
+}
