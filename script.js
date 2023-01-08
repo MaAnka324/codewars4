@@ -175,3 +175,10 @@ function randomWholeNum() {
 
   return Math.floor(Math.random() * 10);;
 }
+
+
+/////////////////////////////////
+function removeChar(str){
+ //You got this!
+return str.slice(1, str.length - 1)
+};
