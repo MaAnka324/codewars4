@@ -182,3 +182,13 @@ function removeChar(str){
  //You got this!
 return str.slice(1, str.length - 1)
 };
+
+//////////////////////
+var countSheep = function (num){
+  //your code here
+  let str = ""
+  for(let i = 1; i <= num; i++){
+    str += i.toString() + ' sheep...'
+  }
+  return str
+}
