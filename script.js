@@ -192,3 +192,10 @@ var countSheep = function (num){
   }
   return str
 }
+
+///////////////////////////
+const areaOrPerimeter = function(l , w) {
+  // Return your answer
+  if(l == w)return l*w;
+  else if( l != w)return (l+w)*2
+};
