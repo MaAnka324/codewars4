@@ -199,3 +199,9 @@ const areaOrPerimeter = function(l , w) {
   if(l == w)return l*w;
   else if( l != w)return (l+w)*2
 };
+
+/////////////////////////////////////
+function stringToArray(string){
+	// code code code
+  return string.split(' ')
+}
